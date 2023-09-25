@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela2</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main>
+        <canvas id="barra_top"></canvas>
+        <canvas id="quadrado"></canvas>
+        <p id="inscrevase">Inscreva-se</p>
+        <form id="form_inscrevase">
+            <label id="label" >Nome:</label><br>
+            <input id="input" placeholder="Nome completo" type="text"><br>
+            <label id="label">E-Mail:</label><br>
+            <input id="input" placeholder="ex: exemplo@gmail.com" type="text"><br>
+            <label id="label">Senha:</label><br>
+            <input id="input" type="password"><br>
+
+            <img id="olho" src="img/esconder.svg" alt="">
+
+            <label id="label">CEP:</label>
+            <label id="label">Numero:</label><br>
+            <input id="input_cep" placeholder="ex: 12345-678" type="text">
+            <input id="input_numero" placeholder="ex: 100" type="text">
+            <label id="label">Rua:</label>
+            <input id="input" placeholder="ex: rua jose amador" type="text"><br>
+            <label id="label">Cidade:</label>
+            <select id="select_cidade">
+                <option value="">Selecione uma Cidade</option>
+                <option value="sao_paulo">São Paulo</option>
+                <option value="riodejaneiro">Rio de Janeiro</option>
+                <option value="salvador">Salvador</option>
+
+            </select>
+            <input type="checkbox" id="input_checkbox">
+            <p id="p_checkbox">concordo com os termos e condições</p>
+            <input type="submit" id="submit" value="cadastrar conta">
+        </form>
+    </main>
+</body>
+</html>
